@@ -46,12 +46,13 @@ def main():
 
     # decode() gives us python3 compatability, since check_output() returns bytes under python3
     commit_list = subprocess.check_output(command).decode().split('\n')
+    # get rid of the extra blank line
     commit_list.pop()
 
     commit = random.choice(commit_list)
 
     # don't ask me why but subprocess.call() needs git rev-list to have the command as a list
-    # but git show needs it to be a single string
+    # but git show has to be a single string
     subprocess.call(["git show %s" % commit], shell=True)
 
 
