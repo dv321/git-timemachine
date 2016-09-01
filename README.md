@@ -1,6 +1,5 @@
 # Git Timemachine - *the nostalgic git plugin*
 
----
 
 git-timemachine is a portable python script that shows you a random commit from a given git repository - you can use it
 to indulge in some nostalgia for code long gone, or perhaps get inspired by old ideas and methods since abondoned.
