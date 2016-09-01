@@ -37,8 +37,7 @@ def main():
 
     args = setup_arguments()
 
-    target_dir = args.directory
-    os.chdir(target_dir)
+    os.chdir(args.directory)
 
     if args.start:
         command = ["git", "rev-list", "HEAD", "--since", args.start.isoformat(), "--before", args.end.isoformat()]
