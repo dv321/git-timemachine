@@ -2,7 +2,7 @@
 
 
 git-timemachine is a portable python script that shows you a random commit from a given git repository - you can use it
-to indulge in some nostalgia for code long gone, or perhaps get inspired by old ideas and methods since abondoned.
+to indulge in some nostalgia for code long gone, or perhaps get inspired by old ideas and methods since abandoned.
 Currently it will not show you merge commits - chances are you see enough of those as it is.
 
 It has no dependencies outside of python >= 2.4 and git, and it also works under python3.
